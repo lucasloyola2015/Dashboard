@@ -9,6 +9,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { RemitosComponent } from './remitos/remitos.component';
 
+
 @NgModule({
     imports: [
         CommonModule,
