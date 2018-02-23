@@ -14,7 +14,11 @@ const routes: Routes = [
             { path: 'forms', loadChildren: './form/form.module#FormModule' },
             { path: 'bs-element', loadChildren: './bs-element/bs-element.module#BsElementModule' },
             { path: 'grid', loadChildren: './grid/grid.module#GridModule' },
+
             { path: 'components', loadChildren: './bs-component/bs-component.module#BsComponentModule' },
+
+            { path: 'remitos', loadChildren: './remitos/remitos.module#RemitosModule' },
+            
             { path: 'blank-page', loadChildren: './blank-page/blank-page.module#BlankPageModule' }
         ]
     }
